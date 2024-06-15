@@ -8,3 +8,12 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <App />
   </React.StrictMode>,
 )
+
+const title = "Hello World";
+
+const description = "Welcome to the app"
+
+
+export const buttonTitle = "Click Me"
+
+export {title, description};
