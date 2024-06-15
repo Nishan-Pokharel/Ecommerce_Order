@@ -43,7 +43,7 @@ export default function TodoList(){
     <ul>
       {todoList.map((item,index)=>{
         return(
-        <TodoItem key ={index} text={item.title} description ={item.description} completed={item.completed} id={item.id} toggleCompleted={toggleCompleted} />
+        <TodoItem key ={`todo-${item.id}`} text={item.title} description ={item.description} completed={item.completed} id={item.id} toggleCompleted={toggleCompleted} />
       )
     })}
     </ul>
